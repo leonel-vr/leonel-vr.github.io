@@ -1,276 +1,416 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/blog/">
+    <script src="https://kit.fontawesome.com/a09237c4ad.js" crossorigin="anonymous"></script>
+    <title>Esperanto Mexico</title>
+    <!-- Bootstrap -->
+<!--      
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+-->
 
-    <title>Creative - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <!--<link href="css/creative.min.css" rel="stylesheet">-->
-    <link href="css/creative.css" rel="stylesheet">
-    <!-- Temporary navbar container fix -->
-    <style>
-    .navbar-toggler {
-        z-index: 1;
-    }
-    
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
-        }
-    }
-    </style>
+    <link href="./css/bootstrap-theme.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
 
-</head>
+    <link href="./css/blog.css" rel="stylesheet">
 
-<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container">
-            <a class="navbar-brand" href="#page-top">MAVA</a>
-            <div class="collapse navbar-collapse" id="navbarExample">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Conócenos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portafolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <header class="masthead">
-        <div class="header-content">
-            <div class="header-content-inner panel-transparent panel-heading">
-                <h1 id="homeHeading">Lorem ipsum dolor sit amet</h1>
-                <hr>
-                <p class="panel-transparent panel-body">Morbi et lorem commodo, dapibus turpis a, viverra magna. Cras sed est ut lectus sollicitudin volutpat. Integer ultrices rhoncus velit ac dictum. Curabitur ut eros fermentum, maximus diam quis, convallis turpis. Mauris interdum rutrum urna, nec iaculis diam vehicula id. Nulla fermentum at mi interdum mattis.</p>
-                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-            </div>
-        </div>
-    </header>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="./js/mef.js"></script>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <h2 class="section-heading text-white">We've got what you need!</h2>
-                    <hr class="light">
-                    <p class="text-faded">Praesent vel enim ultrices nisi molestie volutpat. Integer tempus auctor mollis. Vivamus interdum accumsan risus. Suspendisse mi tortor, fringilla eget velit vel, luctus imperdiet lacus.</p>
-                    <a class="btn btn-default btn-xl sr-button" href="#services">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
+  </head>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Propiedades</h3>
-                        <p class="text-muted">Phasellus vel ipsum et felis dapibus dictum.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Avalous</h3>
-                        <p class="text-muted">Suspendisse egestas ut lectus eget interdum!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Construcción</h3>
-                        <p class="text-muted">Etiam aliquam scelerisque nulla at dapibus.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Morbi viverra </h3>
-                        <p class="text-muted">Aenean scelerisque sagittis lacus eget pellentesque!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <body>
 
-    <section class="no-padding" id="portfolio">
+  
+    <div class="container">
+
+      <!-- <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img alt="Brand" src="./images/Esperanto-Mexico-Logo100.jpg">
+            </a>
+          </div>
         </div>
-    </section>
+      </nav> -->
+      <div class="row">
+        <div class="col-md-9">
+          <div class="navbar-logo">
+            <img src="./images/Esperanto-Mexico-Logo100.jpg" >
+            <h1>Meksika Esperanto Federacio</h1>
+          </div>
+        </div>      
+        <div class="col-md-3">
+          <div class="lingvo pull-right">
+            <a href="#"><img src="images/es.png" alt="Español" title="Español"></a>
+            <a href="#" class="active"><img src="images/eo.png" alt="Esperanto" title="Esperanto"></a>
+          </div>
 
-    <div class="call-to-action bg-dark">
-        <div class="container text-center">
-            <h2>Phasellus vel ipsum!</h2>
-            <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+                
+            <div class="main-login">
+              <form>
+
+                <input type="email" name="email" placeholder="Uzantnomo" required="" class="form-control input-sm">
+                <input type="email" name="email" placeholder="Pasvorto" required="" class="form-control input-sm">
+                <input type="submit" value="Ensaluti" class="btn btn-primary">
+              </form>       
+
+              </div>
+
         </div>
+
+      
+    </div>
     </div>
 
-    <section id="contact">
+
+
+
+
+
+
+
+      <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ut malesuada pellentesque mauris, in vehicula neque auctor in. Etiam molestie ex non lacinia pellentesque vel enim ultrices nisi molestie volutpat.!</p>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <nav id="nav-3">
+              <ul class="nav navbar-nav">
+                <li class="active"><a  href="./index.html">Ĉefpaĝo</a></li>
+                <li ><a href="./page.html">Qué es el Esperanto</a></li>
+                <li ><a href="./blog.html">Blogo</a></li>
+                <li><a  href="#">Kursoj</a></li>
+                <li><a href="#">Libroj</a></li>
+                <li><a href="#">Vendejo</a></li>
+                <li><a href="#">Kontakto</a></li>
+              </ul>
+            </nav>  
+
+
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+ 
+
+
+    <div class="container ">
+
+
+       <div class="row">
+        <div class="col-lg-12">
+          <img src="./images/grupo.png">
+        </div>  
+
+      </div>   
+
+      <div id="banner">
+        <div class="row">
+          <div class="col-lg-12">
+            <div><h1>¿Qué es el Esperanto?</h1></div>      
+          </div>  
+        </div>         
+
+        <div class="row" >
+          <div class="col-lg-4 col-md-offset-1 col-sm-offset-1">
+            <div >                
+              <img src="./images/banner-ulo.jpg">
+              <div class="content-flip">
+                <div class="slider-wrapper">
+                
+                  <div class="slider">
+                      <div class="slider-text1">una lengua</div>
+                      <div class="slider-text2">util</div>
+                      <div class="slider-text3">sencilla</div>
+                      <!-- <div class="slider-text4">flexible</div> -->
+                  </div>
+                </div>       
+              </div>
+            </div>  
+
+
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="caption">
+
+
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>El esperanto es una lengua creada.</li>
+              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Es una lengua neutral para eliminar las barreras entre los pueblos.</li>
+              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Es un idioma muy eficaz para la comunicación internacional.</li>
+              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>La gramática del Esperanto es totalmente regular.</li>
+              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Cuenta con solo 16 reglas.</li>
+              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Aliquam vestibulum sapien id porta varius.</li>
+              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Aenean quis libero vitae risus ullamcorper convallis.</li>
+             
+              </li>
+            </ul>
+
+
+
+              <button type="button" class="btn btn-primary btn-lg btn-block">Quiero saber más!</button>        
+          </div>
+
+        </div>  
+
+
+      </div>   
+    </div>   
+        
+      <hr>
+
+
+      <div class="row display-flex dark">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail card pastel1" >
+              <a href="#"  class="big-icons"><i class="fas fa-chalkboard-teacher fa-9x"></i>
+                <div>
+                  <div class="custom-shape-divider-top-1611777510">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+                    </svg>
+                  </div>
                 </div>
-                <div class="col-lg-4 offset-lg-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+
+                <div class="caption">
+                  <h2>Cursos</h2>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>              
                 </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@ultrices.non</a></p>
-                </div>
+              </a>
             </div>
         </div>
-    </section>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail card pastel2">
+            <a href="#"  class="big-icons"><i class="fas fa-book-open fa-9x"></i>
+                <div>
+                  <div class="custom-shape-divider-top-1611777510">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+                    </svg>
+                  </div>
+                </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/tether/tether.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+              <div class="caption">
+                <h2>Materiales</h2>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>              
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail card pastel3">
+          <a href="#"  class="big-icons"><i class="fas fa-graduation-cap fa-9x"></i>
+            <div>
+              <div class="custom-shape-divider-top-1611777510">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+                </svg>
+              </div>
+            </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+            <div class="caption">
+              <h2>Certificación</h2>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                           
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
 
-</body>
+    <div class="row display-flex  dark">
+      <div class="col-sm-6 col-md-4">
+          <div class="thumbnail card pastel4">
+            <a href="#"  class="big-icons"><i class="fas fa-globe-americas fa-9x"></i>
+              <div>
+                <div class="custom-shape-divider-top-1611777510">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                      <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+                  </svg>
+                </div>
+              </div>
 
+              <div class="caption">
+                <h2>Viaja por el mundo</h2>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>              
+              </div>
+            </a>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+          </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail card pastel5">
+          <a href="#"  class="big-icons"><i class="fas fa-people-carry fa-9x"></i>
+            <div>
+              <div class="custom-shape-divider-top-1611777510">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="caption">
+              <h2>Apóyanos</h2>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>  
+                        
+            </div>
+          </a>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail card pastel6">
+        <a href="#"  class="big-icons"><i class="fas fa-door-open fa-9x"></i>
+          <div>
+            <div class="custom-shape-divider-top-1611777510">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="caption">
+            <h2>Vizitu Meksikon</h2>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                   
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<hr>
+
+<!-- 
+
+
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+      <div class="post-front">  
+          <div class="post-front-img">
+            <img class="pull-left" src="https://via.placeholder.com/300">      
+          </div>  
+          <div class="post-front-txt">            
+            <h2>Viaja por el mundo</h2>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>              
+          </div>        
+      </div>
+  </div>
+</div>
+ -->
+
+
+
+
+
+    </div><!-- /.container -->
+
+
+       
+    <!-- Footer -->
+    <footer class="blog-footer bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>Federación Mexicana de Esperanto</h4>
+            <nav>
+              <ul class="list-unstyled">
+                <li><a href="./estraro.html">Sobre Nosotros</a></li>
+                <li><a href="#">Membresía</a></li>
+                <li><a href="#">Clubes Locales</a></li>
+                <li><a href="#">Exámenes de Certificación</a></li>
+                <li><a href="#">Turismo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            </nav>
+          </div>
+          <div class="col-lg-4">
+            <h4>Comunidad en el Mundo</h4>
+            <nav>
+              <ul class="list-unstyled">
+                <li><a href="#">Otras Asociaciones</a></li>
+                <li><a href="#">UEA</a></li>
+                <li><a href="#">Edukado</a></li>
+                <li><a href="#">Eventa Servo</a></li>
+                <li><a href="#">Pasporta Servo</a></li>
+                <li><a href="#">Lorem Ipsum</a></li>
+
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-4">
+            <div class="showcase-form">
+             
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              <form>
+                
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required="">
+                </div>
+                <input type="submit" value="Abonu min" class="btn btn-primary pull-right">
+            </form>       
+
+
+          </div>
+        </div>
+
+      </div>
+<hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="social text-center">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+
+            <a href="#"><i class="fab fa-whatsapp fa-2x"></i></a>
+            <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+ 
+      </div>
+  </footer>
+
+
+        <a href="#">Back to top</a>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
 </html>
