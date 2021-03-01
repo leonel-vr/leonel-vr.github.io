@@ -44,6 +44,8 @@ body {
   background-color: var(--bg-color);
   font-size: 18px;
   line-height: 1.5em;
+  color: var(--text-color);
+  font-family: Roboto, Montserrat, Helvetica, Times, serif;  
 }
 
 h1, .h1,
@@ -53,13 +55,8 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  
-  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  
   font-weight: 400;
-  color: var(--text-color);
-  font-family: Montserrat, Helvetica, Times, serif;
-
+  font-family: Roboto, Montserrat, Helvetica, Times, serif; 
 }
 
 a{
@@ -70,9 +67,22 @@ a:hover{
   color:var(--link-color-hover);
 }
 
+a:hover, a:focus {
+  outline-style: none;
+  color: var(--link-color-hover);
+  text-decoration: underline;
+}
 /*
  * Override Bootstrap's default container.
  */
+
+ b, strong {
+  font-weight: 500;
+  color: var(--primary-color);
+  color: #007F2E;
+  text-shadow: 0px 0px black;
+}
+
 
 @media (min-width: 1200px) {
   .container {
@@ -80,7 +90,13 @@ a:hover{
   }
 }
 
+@media (max-width: 1200px) {
+  .container {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
 
+}
 /*
  * Masthead for nav
  */
@@ -89,7 +105,8 @@ a:hover{
   box-shadow: inset 0 2px 15px rgba(0, 0, 0, 1);
   height: 20px; */
 
-  box-shadow: 0px 3px 10px 1px;
+  /* box-shadow: 0px 3px 10px 1px; */
+  margin-bottom: 30px;
 }
 .navbar-default .navbar-toggle {
   border-color: white;
@@ -106,7 +123,6 @@ a:hover{
   border:unset;
 }
 
-
 .navbar .container{
   background-color:var(--primary-color);
 }
@@ -114,15 +130,14 @@ a:hover{
 #navbar, #navbar a{
   background-color: var(--primary-color);
   color: #FFF;
-  font-weight: bolder;
   
-  border: 1px solid var(--primary-color);
-  /* border-radius: 5px; */
+  
+ 
 }
 
 
 
-.navbar-default li.active > a,
+
 #navbar li.active > a,
 #navbar li.active > a:hover,
 #navbar li.active > a:focus {
@@ -139,40 +154,50 @@ a:hover{
 
 }
 
-#navbar li > a:hover,
- li > a:focus {
+#navbar li > a:hover {
   color: var(--primary-color);
   background-color: var(--bg-color);
 }
 
-#navbar a
-{
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  color: #ffffff;
-  /* -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
-  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
-  border-color: var(--primary-color-light);
-  border-style: solid;
-  border-width: 1px; */
-
-  background-color: #00923F;
-  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#00923F), to(#00B850));
-  background-image: -webkit-linear-gradient(top, #00923F 0%, #00B850 100%);
-  background-image: -o-linear-gradient(top, #00923F 0%, #00B850 100%);
-  background-image: linear-gradient(to bottom, #00923F 0%, #00B850 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00923F", endColorstr="#00B850", GradientType=0);
-  background-repeat: repeat-x; */
-  border-bottom: 1px solid #00923F;
-} 
 
 #navbar .navbar-nav > li > a{
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
+ 
 
-  border-radius: 5px;
   
 }
 
+.nav-pills li > a:hover,.nav-pills li > a:focus{
+
+  background-color:var(--link-color);
+  COLOR: WHITE;
+
+}
+
+ blockquote{
+  margin: 0 0 20px;
+  border-left: 5px solid var(--first-color);
+  font-weight: 500;
+}
+
+.page blockquote{
+  margin: 0 0 20px;
+  border-left: 10px solid var(--first-color);
+  font-weight: 500;
+}
+
+.page blockquote {
+
+  font-size: 22px;
+  padding: 30px;
+  line-height: 30px;
+  margin: 30px 0px;
+
+}
+figcaption{
+  margin-top: 30px;
+  color: gray;
+}
 
 /* Nav links */
 .blog-nav-item {
@@ -219,7 +244,7 @@ a:hover{
   padding-bottom: 20px;
 }
 .blog-title {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 0;
   font-size: 60px;
   font-weight: 400;
@@ -276,7 +301,7 @@ a:hover{
    padding-bottom: 50px;
  }
  .page h2{
-   padding-top: 20px;
+  padding-top: 40px;
  }
  .page p{
   margin-bottom: 1.5em;
@@ -290,10 +315,10 @@ a:hover{
     background-color: #fff;
     color: #333;
     border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
 }
 .blog-post-title {
@@ -335,6 +360,7 @@ a:hover{
   text-align: left;
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
+  margin-top: 40px;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
@@ -343,6 +369,12 @@ a:hover{
 footer ul{
   text-align: left;
 }
+
+
+footer form label{
+  color: var(--primary-color-light);
+}
+
 
 
 input[type='text'], input[type='email'] {
@@ -375,26 +407,25 @@ input[type='text'], input[type='email'] {
 }
 
 
-.form-control {
+.form-group {
   margin: 10px 0;
   background-color: transparent;
   border: 0;
   box-shadow: none;
+  padding: 5px 0px;
+  font-size: 20px;
+
 }
 
-input[type='text'],
-input[type='email'] {
-  border: 0;
-  border-bottom: 1px solid #e5e5e5;
+.form-group input, .form-group textarea{
+  border: 1px solid var(--first-color);
   width: 100%;
-  padding: 3px;
-  font-size: 16px;
-  background-color: transparent;
+  padding: 5px;
+  font-size: 20px;
+
 }
 
- input:focus {
-  outline: none;
-}
+
 
 .showcase::before,
 .showcase::after {
@@ -415,23 +446,52 @@ input[type='email'] {
   justify-content: space-between;
 }
 .navbar-logo{
-    display: inline-block;
+  display: inline-flex;
     padding-top: 0px;
     padding-bottom: 20px;
     margin-right: 0;
-    font-size: 50px;
+
     line-height: inherit;
     white-space: nowrap;
     font-weight: bolder;
-    height: 145px;
-    margin-top: 15px;
+    
+    margin-top: 0px;
 }
 .navbar-logo h1{
-  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  word-spacing: -10px;
+  font-size: 65px;    
 
-  font-size: 40px;
-  font-weight: bolder;
 }
+.navbar-logo h1 span{
+  color: var(--primary-color);
+}
+
+
+@media (min-width: 801px) and (max-width: 992px) {
+  .navbar-logo{
+    padding-bottom: 5px;
+  }
+
+  .navbar-logo h1 {
+    padding: 0px; 
+    font-size: 5.5rem;
+
+  }
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+
+  .navbar-logo h1 {
+    padding: 0px; 
+    font-size: 7vw;
+  }
+}
+
+
 .navbar-logo img{
 }
 .lingvo img{
@@ -488,7 +548,7 @@ a.fa-telegram-plane{
 #banner{
   background-color:var(--success-color);
   border-radius: 15px;
-  margin: 40px 0px;
+  margin: 50px 0px;
 }
 #banner .typewrite{
   font-size: 22px;
@@ -682,6 +742,13 @@ a.fa-telegram-plane{
 .custom-shape-divider-top-1611777510 .shape-fill {
   fill: #85c226 ;
 }
+
+
+
+
+
+
+
 .card a{
   text-decoration: none;
 }
@@ -706,7 +773,7 @@ a.fa-telegram-plane{
   color:var(--text-color);
   transition-property: background, color, scale;
   transition: 150ms ease-in-out;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); */
   overflow: hidden;
   
 }
@@ -934,6 +1001,10 @@ nav #nav-3{
   .navbar-header {
       float: none;
   }
+  .navbar-header h1{
+    color: white;
+}
+
   .navbar-toggle {
       display: block;
   }
@@ -967,3 +1038,5 @@ nav #nav-3{
       overflow: hidden!important;
   }
 }
+
+
