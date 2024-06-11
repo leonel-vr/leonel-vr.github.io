@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>🪴 Quartz 4.0</title>
+      <title>🪴 Dr. Ridaura</title>
       <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on 🪴 Quartz 4.0</description>
+      <description>Last 10 notes on 🪴 Dr. Ridaura</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Ensayos sobre la personalidad</title>
+    <link>https://quartz.jzhao.xyz/libro/Ensayos-sobre-la-personalidad</link>
+    <guid>https://quartz.jzhao.xyz/libro/Ensayos-sobre-la-personalidad</guid>
+    <description> La homeopatía siempre ha sido blanco de las mas diversas reacciones. Es innegable que se erige como una respuesta ante muchas de las enfermedades y padecimientos del ser humano.</description>
+    <pubDate>Mon, 10 Jun 2024 18:58:52 GMT</pubDate>
+  </item><item>
+    <title>Hepar sulphuris calcareum</title>
+    <link>https://quartz.jzhao.xyz/Medicamentos/Hepar-sulphuris-calcareum</link>
+    <guid>https://quartz.jzhao.xyz/Medicamentos/Hepar-sulphuris-calcareum</guid>
+    <description></description>
+    <pubDate>Mon, 10 Jun 2024 18:14:22 GMT</pubDate>
+  </item><item>
+    <title>Mercurius solubilis</title>
+    <link>https://quartz.jzhao.xyz/Medicamentos/Mercurius-solubilis</link>
+    <guid>https://quartz.jzhao.xyz/Medicamentos/Mercurius-solubilis</guid>
+    <description></description>
+    <pubDate>Mon, 10 Jun 2024 18:14:19 GMT</pubDate>
+  </item><item>
+    <title>Arsenicum album</title>
+    <link>https://quartz.jzhao.xyz/Medicamentos/Arsenicum-album</link>
+    <guid>https://quartz.jzhao.xyz/Medicamentos/Arsenicum-album</guid>
+    <description>Arsenicum album es un remedio homeopático utilizado para tratar una variedad de afecciones en diferentes partes del cuerpo. A continuación, se enumeran algunas de las condiciones para las cuales se utiliza Arsenicum album en homeopatía: Trastornos gastrointestinales: Usado para tratar gastroenteritis, intoxicación alimentaria, diarrea y vómitos, especialmente cuando los síntomas incluyen dolor abdominal ardiente, debilidad extrema y ansiedad.</description>
+    <pubDate>Mon, 10 Jun 2024 18:14:14 GMT</pubDate>
+  </item><item>
+    <title>Apis mellifica</title>
+    <link>https://quartz.jzhao.xyz/Medicamentos/Apis-mellifica</link>
+    <guid>https://quartz.jzhao.xyz/Medicamentos/Apis-mellifica</guid>
+    <description>Apis mellifica es utilizada para tratar diversas afecciones en diferentes partes del cuerpo. Aquí tienes una lista de algunas condiciones para las que se utiliza Apis mellifica en homeopatía: Reacciones alérgicas y picaduras de insectos: Usado para tratar la hinchazón, el enrojecimiento y el dolor que resultan de picaduras de abejas, avispas y otros insectos, así como reacciones alérgicas similares.</description>
+    <pubDate>Mon, 10 Jun 2024 17:48:33 GMT</pubDate>
+  </item><item>
     <title>Cabeza</title>
     <link>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Cabeza</link>
     <guid>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Cabeza</guid>
@@ -19,8 +49,8 @@
     <pubDate>Sun, 09 Jun 2024 20:31:42 GMT</pubDate>
   </item><item>
     <title>Esclerótica</title>
-    <link>https://quartz.jzhao.xyz/Escler%C3%B3tica</link>
-    <guid>https://quartz.jzhao.xyz/Escler%C3%B3tica</guid>
+    <link>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Ojo/Escler%C3%B3tica</link>
+    <guid>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Ojo/Escler%C3%B3tica</guid>
     <description>En homeopatía, los tratamientos para afecciones relacionadas con la esclerótica (como la inflamación conocida como escleritis) se seleccionan según los síntomas específicos ...</description>
     <pubDate>Sun, 09 Jun 2024 20:13:11 GMT</pubDate>
   </item><item>
@@ -35,30 +65,6 @@
     <guid>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Garganta</guid>
     <description></description>
     <pubDate>Sat, 08 Jun 2024 18:20:36 GMT</pubDate>
-  </item><item>
-    <title>Oido</title>
-    <link>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Oido</link>
-    <guid>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Oido</guid>
-    <description></description>
-    <pubDate>Sat, 08 Jun 2024 18:20:34 GMT</pubDate>
-  </item><item>
-    <title>Nariz</title>
-    <link>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Nariz</link>
-    <guid>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia/Nariz</guid>
-    <description></description>
-    <pubDate>Sat, 08 Jun 2024 18:20:32 GMT</pubDate>
-  </item><item>
-    <title>Topología de la homeoptía</title>
-    <link>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia</link>
-    <guid>https://quartz.jzhao.xyz/libro/Topologia-de-la-homeopatia</guid>
-    <description>Mauris purus sem, vestibulum ullamcorper ex ac, tincidunt sagittis est. Pellentesque viverra finibus egestas. Aenean ullamcorper, orci eget suscipit sagittis, nisi sem venenatis nisi, in pharetra nisi diam eu diam.</description>
-    <pubDate>Sat, 08 Jun 2024 00:06:05 GMT</pubDate>
-  </item><item>
-    <title>Welcome to Quartz</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>Phasellus nec augue eleifend, auctor diam non, rhoncus sem. Ut mi magna, tincidunt a rutrum in, iaculis ac mauris. Donec non turpis et felis varius tempus.</description>
-    <pubDate>Fri, 07 Jun 2024 19:42:27 GMT</pubDate>
   </item>
     </channel>
   </rss>
